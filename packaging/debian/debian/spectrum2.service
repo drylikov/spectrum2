@@ -1,0 +1,14 @@
+[Unit]
+Description=spectrum2
+Wants=network-online.target
+After=network.target network-online.target
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/spectrum2_manager start
+TimeoutStopSec=3
+ExecStop=/usr/bin/spectrum2_manager stop
+ExecReload=/usr/bin/spectrum2_manager restart
+
+[Install]
+WantedBy=multi-user.target

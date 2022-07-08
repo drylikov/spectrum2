@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Spectrum 2 : Spectrum 2 IM transports">
+
+    <link rel="stylesheet" type="text/css" href="/bootstrap.min.css">
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/form.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css" media="all">
+    <script src="/js/jquery.js"></script>
+    <script src="/js/jquery-ui.js"></script>
+    <script src="/js/jquery.cookie.js"></script>
+    <script src="/js/config.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/bootbox.min.js"></script>
+    <script src="/js/app.js"></script>
+    <title>Spectrum 2</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+
+            <img id="logo" src="/logo.png" style="width:250px; margin-left: auto;margin-right: auto; display:block;">
+
+            <section id="menu" style="text-align: center;">
+            <a class="menuitem" href="/instances">Instances</a>
+            <a class="menuitem" href="/users/list.shtml">Users</a>
+            <a class="menuitem" href="/logout">Logout</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+ 
